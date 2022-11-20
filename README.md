@@ -1,0 +1,1 @@
+# lxqt-themes-mint-y
