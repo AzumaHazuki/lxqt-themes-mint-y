@@ -1,0 +1,23 @@
+Notification {
+    color: #303030;
+    background: #383838;
+    margin: 0px;
+}
+
+QLabel {
+    color: #303030;
+}
+
+#closeButton {
+    border: none;
+    qproperty-icon: url(lxqt-notificationd/cancel.svg);
+}
+
+#closeButton:hover {
+    background: #303030;
+    qproperty-icon: url(lxqt-notificationd/cancel.svg);
+}
+
+#appLabel {
+    font-weight: bold;
+}
