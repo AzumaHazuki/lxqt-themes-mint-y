@@ -7,14 +7,15 @@ In order to save space and not clutter up the theme selector, I have created _on
 
 In this way, it is also possible for the user to create a custom Mint-Y-like theme by simply changing their active palette; things such as text colors have been hardcoded to ensure sanity and a consistent look, however.
 
+Additionally, as of 24 Nov. 2022, there have been matching Openbox themes added. They can help create a more consistent look on LXQt setups running Openbox, which is most of them.
+
 Light theme - Mint-Y
 
-![Mint-Y](https://user-images.githubusercontent.com/67122280/202880227-453565f4-3f1c-437c-bcd3-b0c72e7cf92e.jpg)
+![Mint-Y-LXQt](https://user-images.githubusercontent.com/67122280/203867213-9a8114a5-5d8d-437d-a7d6-c899c02123fe.jpg)
 
 Dark theme - Mint-Y-Dark
+![Mint-Y-LXQt-Dark](https://user-images.githubusercontent.com/67122280/203867254-fd16f3f7-31dd-4623-806e-18987d4e07c8.jpg)
 
-![Mint-Y-Dark](https://user-images.githubusercontent.com/67122280/202880228-aefe16b1-92b3-4838-bd71-b51ac59b8ee2.jpg)
+Example of a custom theme - Mint-Y with Plastik palette and ePapirus icon set
 
-Example of a custom theme - Mint-Y-Dark with Clearlooks palette, Elementary KDE Blue icon set, and slim dual-panel layout
-
-![Custom](https://user-images.githubusercontent.com/67122280/202880608-1e9f34e6-2ad4-4114-ad59-1238e747532d.jpg)
+![LXQt-Mint-Custom](https://user-images.githubusercontent.com/67122280/203867269-816a1bfc-2208-4bce-8c9d-1c2942a4365d.jpg)
