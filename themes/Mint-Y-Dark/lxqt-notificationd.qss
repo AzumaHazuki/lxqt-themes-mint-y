@@ -1,11 +1,11 @@
 Notification {
-    color: #dadada;
-    background: #383838;
+    color: #d3d3d3;
+    background: #404040;
     margin: 0px;
 }
 
 QLabel {
-    color: #dadada;
+    color: #d3d3d3;
 }
 
 #closeButton {

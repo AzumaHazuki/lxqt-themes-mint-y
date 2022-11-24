@@ -6,14 +6,14 @@ Created 19 November 2022
 
 LXQtPanel #BackgroundWidget
 {
-	background-color:	#383838;
-	color:			#dadada;
+	background-color:	#404040;
+	color:			#d3d3d3;
 }
 
 Plugin > QWidget, Plugin > QWidget > QWidget
 {
 	border:			0px;
-	color:			#dadada;
+	color:			#d3d3d3;
 }
 
 Plugin > QToolButton,
@@ -25,15 +25,15 @@ LXQtPanelPlugin > QToolButton
 	background:		transparent;
 	margin:			1px;
 	padding:		2px;
-	color:			#dadada;
+	color:			#d3d3d3;
 }
 
 /* Menus */
 
 QMenu
 {
-	background:		#383838;
-	color:			#dadada;
+	background:		#404040;
+	color:			#d3d3d3;
 }
 
 QMenu QToolButton {
@@ -86,7 +86,7 @@ QMenu::item
 QMenu::item:selected
 {
 	background-color:	#4c4c4c;
-	color:			#dadada;
+	color:			#d3d3d3;
 }
 
 QMenu::item:disabled {
@@ -123,7 +123,7 @@ QMenu::indicator:non-exclusive:checked:selected {
 	margin:			0px;
 	padding:		2px;
 
-	background-color:	#383838;
+	background-color:	#404040;
 	color:			#d3d3d3;
 }
 
@@ -206,7 +206,7 @@ QMenu::indicator:non-exclusive:checked:selected {
 	qproperty-icon:				url(mainmenu.svg);
 
 	background-color:			transparent;
-	color:					#dadada;
+	color:					#d3d3d3;
 }
 
 #MainMenu:pressed
@@ -228,21 +228,21 @@ QMenu::indicator:non-exclusive:checked:selected {
 	margin-bottom:				1px;
 
 	background-color:			palette(highlight);
-	color:					#dadada;
+	color:					#d3d3d3;
 }
 
 
 /* The actual menu... */
 #MainMenu QMenu
 {
-	background:		#383838;
-	color:			#dadada;
+	background:		#404040;
+	color:			#d3d3d3;
 	padding:		0px;
 }
 
 #MainMenu QLineEdit
 {
-	color:			#dadada;
+	color:			#d3d3d3;
 	background:		#000000;
 	border:			1px solid #2b2b2b;
 	border-radius:		2px;
@@ -284,11 +284,11 @@ QMenu::indicator:non-exclusive:checked:selected {
 #MainMenu QMenu::item:selected
 {
 	background-color:	#4c4c4c;
-	color:			#dadada;
+	color:			#d3d3d3;
 }
 
 #MainMenu ActionView {
-	background:		#dadada;
+	background:		#d3d3d3;
 	color:			#000000;
 	border:			1px solid transparent;
 	padding:		0px;
@@ -350,14 +350,14 @@ QMenu::indicator:non-exclusive:checked:selected {
 	margin-bottom:		2px;
 	margin-top:		2px;
 
-	color:			#dadada;
+	color:			#d3d3d3;
 
 }
 
 #WorldClockContent
 {
 	padding:		2px;
-	color:			#dadada;
+	color:			#d3d3d3;
 }
 
 /*
@@ -371,7 +371,7 @@ QMenu::indicator:non-exclusive:checked:selected {
 
 #KbIndicator > QLabel {
     background: transparent;
-    color: #dadada;
+    color: #d3d3d3;
     border: 0px;
     margin: 0px;
     padding: 3px;
@@ -381,7 +381,7 @@ QMenu::indicator:non-exclusive:checked:selected {
 
 #KbIndicator > QToolButton {
     background: transparent;
-    color: #dadada;
+    color: #d3d3d3;
     border: 0px;
     margin: 0px;
     padding: 1px;
@@ -400,18 +400,18 @@ QMenu::indicator:non-exclusive:checked:selected {
 #KbIndicator #CapsLockLabel,
 #KbIndicator #NumLockLabel,
 #KbIndicator #ScrollLockLabel {
-    color: #dadada;
+    color: #d3d3d3;
 }
 
 #KbIndicator > QLabel:enabled {
     background: transparent;
-    color: #dadada;
+    color: #d3d3d3;
 }
 
 #KbIndicator #CapsLockLabel:enabled,
 #KbIndicator #NumLockLabel:enabled,
 #KbIndicator #ScrollLockLabel:enabled {
-    color: #dadada;
+    color: #d3d3d3;
     font: bold;
 }
 
@@ -427,32 +427,32 @@ QMenu::indicator:non-exclusive:checked:selected {
 	background-color:	#444444;
 	border:			1px solid #2b2b2b;
 	border-radius:		2px;
-	color:			#dadada;
+	color:			#d3d3d3;
 }
 
 #DesktopSwitch QToolButton:on
 {
 	background-color:	#2e2e2e;
-	color:			#dadada;
+	color:			#d3d3d3;
 	border:			1px solid #282828;
 }
 
 #DesktopSwitch QToolButton:hover
 {
 	background-color:	#505050;
-	color:			#dadada;
+	color:			#d3d3d3;
 	border:			1px solid #2b2b2b;
 }
 
 #DesktopSwitch QToolButton:pressed
 {
 	background-color:	#2e2e2e;
-	color:			#dadada;
+	color:			#d3d3d3;
 	border:			1px solid #282828;
 }
 
 #DesktopSwitch QToolButton[urgent="true"]
 {
 	background-color:	palette(highlight);
-	color:			#dadada;
+	color:			#d3d3d3;
 }

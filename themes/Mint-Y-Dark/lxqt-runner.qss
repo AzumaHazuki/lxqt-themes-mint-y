@@ -2,7 +2,7 @@
 
 #panel
 {
-	background:	#383838;
+	background:	#404040;
 }
 
 /* Buttons */
@@ -28,7 +28,7 @@ QToolButton::menu-indicator
 
 #closeButton:pressed
 {
-	color:		#dadada;
+	color:		#d3d3d3;
 	background:	#2e2e2e;
 	border:		1px solid #282828;
 	border-radius:	2px;
@@ -43,7 +43,7 @@ QToolButton::menu-indicator
 
 #actionButton:hover
 {
-	color:		#dadada;
+	color:		#d3d3d3;
 	background:	#505050;
 	border:		1px solid #2b2b2b;
 	border-radius:	2px;
@@ -63,7 +63,7 @@ QToolButton::menu-indicator
 
 #commandEd
 {
-	color:				#dadada;
+	color:				#d3d3d3;
 	background:			#2e2e2e;
 	selection-color:		palette(highlighted-text);
 	selection-background-color:	palette(highlight);
@@ -80,14 +80,14 @@ QToolButton::menu-indicator
 	border:				none;
 	background-color:		#2b2b2b;
 	alternate-background-color:	#282828;
-	color:				#dadada;
+	color:				#d3d3d3;
 	selection-color:		palette(highlighted-text);
 	selection-background-color:	palette(highlight);
 }
 
 #commandList::item {
     background: #2b2b2b;
-    color: #dadada;
+    color: #d3d3d3;
 }
 
 #commandList::item:alternate {
@@ -109,8 +109,8 @@ QToolButton::menu-indicator
 
 QMenu
 {
-	background:		#383838;
-	color:			#dadada;
+	background:		#404040;
+	color:			#d3d3d3;
 	border:			1px solid #2b2b2b;
 	padding:		2px;
 }
@@ -154,7 +154,7 @@ QMenu::item
 	padding-top:		2px;
 	padding-bottom:		2px;
 
-	color:			#dadada;
+	color:			#d3d3d3;
 }
 
 QMenu::item:selected
